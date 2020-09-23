@@ -506,11 +506,11 @@
 #define DEFAULT_Kd 54.36
 
 // E1 PID
-/****/
+/**
 #define DEFAULT_Kp 23.30
 #define DEFAULT_Ki 2.17
 #define DEFAULT_Kd 62.49
-
+**/
 #endif // PIDTEMP
 
 //===========================================================================
@@ -749,7 +749,7 @@
 // Titan extruder
 #define DEFAULT_AXIS_STEPS_PER_UNIT \
   {                                 \
-    94.062, 94.062, 400.0, 435, 435 \
+    88.99, 88.95, 397.81, 96.49, 96.49 \
   }
 /**
  * Default Max Feed Rate (mm/s)
