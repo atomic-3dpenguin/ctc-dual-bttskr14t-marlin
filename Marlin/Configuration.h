@@ -134,7 +134,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "CTC 2X"
+#define CUSTOM_MACHINE_NAME "AP-MK2"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
@@ -659,7 +659,7 @@
 // Mechanical endstop with COM to ground and NC to Signal uses "false" here (most common setup).
 #define X_MIN_ENDSTOP_INVERTING false       // Set to true to invert the logic of the endstop.
 #define Y_MIN_ENDSTOP_INVERTING false       // Set to true to invert the logic of the endstop.
-#define Z_MIN_ENDSTOP_INVERTING true       // Set to true to invert the logic of the endstop.
+#define Z_MIN_ENDSTOP_INVERTING false       // Set to true to invert the logic of the endstop.
 #define X_MAX_ENDSTOP_INVERTING false       // Set to true to invert the logic of the endstop.
 #define Y_MAX_ENDSTOP_INVERTING false       // Set to true to invert the logic of the endstop.
 #define Z_MAX_ENDSTOP_INVERTING false       // Set to true to invert the logic of the endstop.
@@ -1025,12 +1025,12 @@
  * Example: `M851 Z-5` with a CLEARANCE of 4  =>  9mm from bed to nozzle.
  *     But: `M851 Z+1` with a CLEARANCE of 2  =>  2mm from bed to nozzle.
  */
-#define Z_CLEARANCE_DEPLOY_PROBE 10   // Z Clearance for Deploy/Stow
+#define Z_CLEARANCE_DEPLOY_PROBE 5   // Z Clearance for Deploy/Stow
 #define Z_CLEARANCE_BETWEEN_PROBES 5 // Z Clearance between probe points
 #define Z_CLEARANCE_MULTI_PROBE 5    // Z Clearance between multiple probes
 #define Z_AFTER_PROBING 5            // Z position after probing is done
 
-#define Z_PROBE_LOW_POINT -3 // Farthest distance below the trigger-point to go before stopping
+#define Z_PROBE_LOW_POINT -5 // Farthest distance below the trigger-point to go before stopping
 
 // For M851 give a range for adjusting the Z probe offset
 #define Z_PROBE_OFFSET_RANGE_MIN -20
